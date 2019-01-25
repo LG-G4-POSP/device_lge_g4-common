@@ -16,6 +16,10 @@
 
 $(call inherit-product-if-exists, vendor/lge/g4-common/g4-common-vendor.mk)
 
+# AMBIENT DISPLAY: Gestures
+PRODUCT_PACKAGES +=\
+    LGDoze
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
