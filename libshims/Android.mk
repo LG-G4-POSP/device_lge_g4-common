@@ -42,22 +42,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
 
-# cameraclient
-include $(CLEAR_VARS)
-LOCAL_SRC_FILES := cameraclient_shim.cpp
-LOCAL_MODULE := libshim_cameraclient
-LOCAL_MODULE_TAGS := optional
-include $(BUILD_SHARED_LIBRARY)
-
-# Fence
-include $(CLEAR_VARS)
-LOCAL_SRC_FILES := fence.cpp
-LOCAL_MODULE := libfence_shim
-LOCAL_MODULE_TAGS := optional
-LOCAL_PROPRIETARY_MODULE := true
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_SHARED_LIBRARY)
-
 # RTP
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := rtp.cpp
