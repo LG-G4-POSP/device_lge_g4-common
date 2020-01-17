@@ -76,7 +76,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
     libqomx_core \
-    libmm-qcamera
+    libmm-qcamera \
+    camera.msm8992
 
 # rootless torch tile workaround
 PRODUCT_PACKAGES += \
@@ -380,9 +381,7 @@ PRODUCT_PACKAGES += \
     libshims_wvm \
     libqsap_shim \
     libcne_shim \
-    libshim_cameraclient \
     libqsap_shim \
-    libfence_shim \
     ims_rtp_shim
 
 # System properties
