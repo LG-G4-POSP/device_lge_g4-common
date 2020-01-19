@@ -86,7 +86,6 @@ vendor/bin/rmt_storage
 vendor/bin/sensors.qcom
 vendor/bin/time_daemon
 vendor/bin/irsc_util
-vendor/bin/mm-qcamera-app
 vendor/bin/mm-qcamera-daemon
 vendor/bin/LKCore
 vendor/bin/RIDLClient.exe
@@ -111,7 +110,6 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libQTapGLES.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/hw/camera.msm8992.so
 vendor/lib/hw/activity_recognition.msm8992.so
 vendor/lib/hw/flp.default.so
 vendor/lib/hw/gatekeeper.msm8992.so
@@ -441,9 +439,6 @@ vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
 vendor/lib/libseemore.so
 vendor/lib/libmm-qcamera.so
-vendor/lib/libmmcamera_interface.so
-vendor/lib/libqomx_core.so
-vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmorpho_image_stab31.so
 vendor/lib/libmorpho_superzoom.so
 vendor/lib/libmmhttpstack.so
