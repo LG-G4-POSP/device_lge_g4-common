@@ -1,3 +1,3 @@
 type qti_init_prop, property_type;
-type wrild_prop, proc_kernel_sched
+type wrild_prop, property_type;
 type proc_kernel_sched, property_type;
