@@ -224,5 +224,8 @@ WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/bcmdhd/parameters/firmware_path"
 WIFI_DRIVER_FW_PATH_STA := "/vendor/firmware/fw_bcmdhd.bin"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# disable DEXPREOPT (for now...)
+WITH_DEXPREOPT := false
+
 # inherit from the proprietary version
 -include vendor/lge/g4-common/BoardConfigVendor.mk
