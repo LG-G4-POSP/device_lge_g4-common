@@ -239,5 +239,16 @@ WIFI_DRIVER_FW_PATH_PARAM := "/sys/module/bcmdhd/parameters/firmware_path"
 WIFI_DRIVER_FW_PATH_STA := "/vendor/firmware/fw_bcmdhd.bin"
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# Dexpreopt
+ifeq ($(HOST_OS),linux)
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+WITH_DEXPREOPT := true
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
+WITH_DEXPREOPT_DEBUG_INFO := false
+DONT_DEXPREOPT_PREBUILTS := true
+USE_DEX2OAT_DEBUG := false
+endif
+endif
+
 # inherit from the proprietary version
 -include vendor/lge/g4-common/BoardConfigVendor.mk
